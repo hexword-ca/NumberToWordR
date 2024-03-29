@@ -2,9 +2,10 @@
 
 ## About this Project
 This project is Recursive C/C++ function to convert a Whole number to Words.  
+   
+This code was originally uploaded and tested at codepad.org  
+[http://codepad.org/C29M1wUQ](http://codepad.org/C29M1wUQ)
   
-
-
 ## Compiling Instructions - Linux
 Install CMake and all other required compilers and tools.
 Then use:
