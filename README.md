@@ -10,10 +10,33 @@ This code was originally uploaded and tested at codepad.org
 Install CMake and all other required compilers and tools.
 Then use:
 ```
+wsl01@XYZ:~/Source/NumberToWordR$ mkdir output
+wsl01@XYZ:~/Source/NumberToWordR$ cmake -B ./output
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wsl01/Source/NumberToWordR/output
+wsl01@XYZ:~/Source/NumberToWordR$ cmake --build ./output
+[ 50%] Building CXX object CMakeFiles/NumberToWordR.dir/NumberToWordR.cpp.o
+[100%] Linking CXX executable NumberToWordR
+[100%] Built target NumberToWordR
+wsl01@XYZ:~/Source/NumberToWordR$ ./output/NumberToWordR
+Hello World!
+Number to Convert: 2305843008139952128
+Converted result: two quintillion three hundred five quadrillion eight hundred forty three trillion eight billion one hundred thirty nine million nine hundred fifty two thousand one hundred twenty eight
 
-
-
-
+wsl01@XYZ:~/Source/NumberToWordR$
 ```
 
 ## Compiling Instructions - Windows 11
